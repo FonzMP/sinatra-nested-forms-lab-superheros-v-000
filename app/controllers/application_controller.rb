@@ -16,6 +16,8 @@ class App < Sinatra::Base
       end
 
       @hero_1 = Hero.all[0]
+      @hero_2 = Hero.all[1]
+      @hero_=3 = Hero.all[2]
 
       erb :"../views/team"
     end
