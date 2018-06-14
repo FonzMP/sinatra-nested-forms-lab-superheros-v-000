@@ -11,7 +11,9 @@ class App < Sinatra::Base
     post '/teams' do
       @team = Team.new(params[:team])
 
-      params[:team][:hero]
+      params[:team][:hero].each do |hero|
+
+      end
 
       erb :"../views/team"
     end
