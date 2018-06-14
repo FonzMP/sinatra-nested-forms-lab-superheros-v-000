@@ -10,7 +10,7 @@ class Hero
   end
 
   def self.all
-
+    @@all
   end
 
 end
